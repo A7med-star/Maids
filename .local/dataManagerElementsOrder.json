@@ -1,0 +1,348 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/SignupAtHideMe.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLogOutExist&Sequence_7",
+        "lst_Mails&Sequence_7",
+        "bool_Founded&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Mails/DownloadFromMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolFileExist&Sequence_17",
+        "boolLogOutExist&Sequence_2",
+        "lst_Mails&Sequence_2",
+        "bool_Founded&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/ActivateEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strActiviteLink&Sequence_14",
+        "bool_Founded&Sequence_14",
+        "lst_Mails&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ActivationLink",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Mails/SendFirstEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLogOutExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUserName&Sequence_3",
+        "boolLogOutExist&Sequence_2",
+        "lst_Mails&Sequence_2",
+        "bool_Founded&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MaxIteration&Sequence_4",
+        "boolVerifiedText&Sequence_4",
+        "ImageText&Sequence_4",
+        "boolLogOutExist&Sequence_2",
+        "lst_Mails&Sequence_2",
+        "bool_Founded&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ChangePassword",
+        "in_Activate",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/RequestToChangePassword.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_ChangingPasswordLink",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/ChangePassword.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_Founded&Sequence_2",
+        "strActiviteLink&Sequence_2",
+        "lst_Mails&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "readingConfig.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstansts&Sequence_8",
+        "test&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "readingDownloadedFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "test&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TestData",
+        "in_TestSheet",
+        "in_TestFile"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "generateFakeNames.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_Founded&Sequence_4",
+        "strActiviteLink&Sequence_4",
+        "lst_Mails&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_Country",
+        "in_Gender"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "getDataFromFakeNamesSite.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_Birthday",
+        "out_Phone",
+        "out_Address",
+        "out_Name",
+        "out_Occupation",
+        "out_Company",
+        "out_CountryCode",
+        "out_Password"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SignupAtAutomationExercise.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_Founded&Sequence_2",
+        "strActiviteLink&Sequence_2",
+        "lst_Mails&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_Phone",
+        "in_Country",
+        "in_Address",
+        "in_Company",
+        "in_Birthday",
+        "in_Password",
+        "in_Gender",
+        "in_Email",
+        "in_Name"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "postData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "jsonData&Sequence_3",
+        "Data&Sequence_3",
+        "bool_Founded&Sequence_2",
+        "strActiviteLink&Sequence_2",
+        "lst_Mails&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_ID",
+        "in_Occupation",
+        "in_CountryCode",
+        "in_Company",
+        "in_Phone",
+        "in_Birthday",
+        "in_Address",
+        "in_Name"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "saveAtResult.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtResult&Sequence_6",
+        "intCount&Sequence_10",
+        "dcMonthes&Sequence_6",
+        "strMonthes&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_ID",
+        "in_Gender",
+        "in_Country",
+        "in_Password",
+        "in_Occupation",
+        "in_CountryCode",
+        "in_Company",
+        "in_Phone",
+        "in_Birthday",
+        "in_Address",
+        "in_Name"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Mails/SendLastEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLogOutExist&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_FirstTimeToSend"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Mails/waitingForLastEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_Founded&Sequence_2",
+        "strActiviteLink&Sequence_2",
+        "lst_Mails&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_FirstTimeToSend"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/ConnectToHideMe.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLogOutExist&Sequence_2",
+        "lst_Mails&Sequence_2",
+        "bool_Founded&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MaidsTask.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strID&Sequence_2",
+        "strBirthday&Sequence_2",
+        "strPhone&Sequence_2",
+        "strAddress&Sequence_2",
+        "strName&Sequence_2",
+        "strOccupation&Sequence_2",
+        "strCompany&Sequence_2",
+        "strCountryCode&Sequence_2",
+        "strPassword&Sequence_2",
+        "dt_Test&Flowchart_1",
+        "strRequiredLink&Flowchart_1",
+        "boolChangePassword&Flowchart_1",
+        "boolActivate&Flowchart_1",
+        "Config&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hideme/CheckIfActivateOrChangePassword.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_Founded&Sequence_15",
+        "lst_Mails&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_RequiredLink",
+        "out_ChangePassword",
+        "out_Activate",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
